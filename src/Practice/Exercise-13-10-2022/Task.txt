@@ -1,0 +1,18 @@
+﻿Task 1
+
+Array Statistics (Статистика на масив)
+
+Write a program that receives an array of integers, separated by a space as an interval and that outputs
+the smallest element and the largest element.
+
+Напишете програма, която получава масив от цели числа (разделени с интервал) и извежда най-малкия и
+най-големия елемент.
+
+Input			Output					Input							Output
+
+2 3 4 5 6 1		Min = 1					-1 200 124123 -400 -124214		Min = -124214
+				Max = 6													Max = 124123
+
+* Input -> Вход
+* Output -> Изход
+
