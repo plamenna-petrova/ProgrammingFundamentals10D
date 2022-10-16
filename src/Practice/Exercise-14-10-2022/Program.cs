@@ -9,7 +9,9 @@ namespace Exercise_14_10_2022
         {
             int[] inputArray = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 
-            int sumOfArrayElements = 0;
+            double sumOfArrayElements = 0;
+
+            //int sumOfArrayElements = 0;
 
             int sumOfEvenArrayElements = 0;
             int sumOfOddArrayElements = 0;
@@ -59,7 +61,10 @@ namespace Exercise_14_10_2022
                 }
             }
 
-            double average = (double) sumOfArrayElements / inputArray.Length;
+            // cast the expression to double when the sum type of int type
+            //double average = (double) sumOfArrayElements / inputArray.Length;
+
+            double average = sumOfArrayElements / inputArray.Length;
 
             Console.WriteLine($"Sum = {sumOfArrayElements}");
             Console.WriteLine($"Sum = {inputArray.Sum()}");
