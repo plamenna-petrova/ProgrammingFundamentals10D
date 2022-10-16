@@ -1,0 +1,25 @@
+﻿Task 1
+
+Write a program that receives an array of integers, separated by a space as an interval and that outputs
+the following special pieces of information about the given array :
+
+a) retrieve the sum of all of the array elements
+b) retrieve the sum of all even elements, found in the array
+c) retrieve the sum of all odd elements, found in the array
+d) retrieve the sum of all array elements at even positions (indexes)
+e) retrieve the sum of all array elements at odd positions (indexes)
+f) retrieve the sum of the array elements, which are divisible by three
+g) retrieve the average of all array elements and round it to the second point of decimal precision
+h) retrieve the count of all array occurrences of a number, that is entered in the console
+
+Напишете програма, която получава масив от цели числа (разделени с интервал) и извежда следната специфична информация
+за конкретния масив :
+
+a) сумата от всички негови елементи
+б) сумата от четните елементи, които се съдържат в него
+в) сумата от нечетните елементи, които се съдържат в него
+г) сумата на елементите му, намиращи се на четни позиции (индекси)
+д) сумата на елементите му, намиращи се на нечетни позиции (индекси)
+е) сумата на елементите му, които се делят на три
+ж) средната на стойност на елементите му, закръглена до втория знак след десетичната запетая
+з) броя на всички срещания на въведен елемент на конзолата в масива
