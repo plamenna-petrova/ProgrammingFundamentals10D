@@ -61,7 +61,7 @@ namespace Exercise_14_10_2022
                 }
             }
 
-            // cast the expression to double when the sum type of int type
+            // cast the expression to double when the type of the sum variable is int
             //double average = (double) sumOfArrayElements / inputArray.Length;
 
             double average = sumOfArrayElements / inputArray.Length;
