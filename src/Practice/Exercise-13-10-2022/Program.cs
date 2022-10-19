@@ -9,7 +9,7 @@ namespace Exercise_13_10_2022
         {
             int[] exampleArray = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 
-            Console.WriteLine("-----------------------------");
+            Console.WriteLine("-----------------------------"); 
 
             // by using the Min() and Max() methods respectivelty
             Console.WriteLine($"Min = {exampleArray.Min()}");
