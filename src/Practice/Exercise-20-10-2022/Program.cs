@@ -9,7 +9,7 @@ namespace Exercise_20_10_2022
         {
             int[] numbersArray = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 
-            int maximumCountOfIdenticalElements = 0;
+            int maximumCountOfIdenticalElements = 0; 
 
             int firstElementWithMaximumIdenticalOccurrences = 0;
 
