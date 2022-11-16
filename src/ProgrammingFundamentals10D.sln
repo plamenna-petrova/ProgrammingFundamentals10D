@@ -13,19 +13,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise-14-10-2022", "Prac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraysMoreExamples", "Practice\ArraysMoreExamples\ArraysMoreExamples.csproj", "{4ED5893B-FBD7-4A69-815D-D93B4F4023B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise-20-10-2022", "Practice\Exercise-20-10-2022\Exercise-20-10-2022.csproj", "{99AAD8A2-827A-40FC-A4C3-7EE5C00EBFD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise-20-10-2022", "Practice\Exercise-20-10-2022\Exercise-20-10-2022.csproj", "{99AAD8A2-827A-40FC-A4C3-7EE5C00EBFD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexOfALetter", "Practice\Exercise-21-10-2022\IndexOfALetter\IndexOfALetter.csproj", "{7AC5679E-B178-4C5E-B866-49EBC367A678}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexOfALetter", "Practice\Exercise-21-10-2022\IndexOfALetter\IndexOfALetter.csproj", "{7AC5679E-B178-4C5E-B866-49EBC367A678}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayToNumberCondensation", "Practice\Exercise-21-10-2022\ArrayToNumberCondensation\ArrayToNumberCondensation.csproj", "{D51ABD33-5C56-40FA-985B-3B48DFABE882}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayToNumberCondensation", "Practice\Exercise-21-10-2022\ArrayToNumberCondensation\ArrayToNumberCondensation.csproj", "{D51ABD33-5C56-40FA-985B-3B48DFABE882}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstHomeworkSolution", "Practice\Exercise-27-10-2022\FirstHomeworkSolution\FirstHomeworkSolution.csproj", "{3D3318E7-3BAA-488E-908C-6E6B85109BD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstHomeworkSolution", "Practice\Exercise-27-10-2022\FirstHomeworkSolution\FirstHomeworkSolution.csproj", "{3D3318E7-3BAA-488E-908C-6E6B85109BD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArraySequence", "Practice\Exercise-28-10-2022\ReverseArraySequence\ReverseArraySequence.csproj", "{4274A6F0-2D49-49B0-A0ED-E90D89B067E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseArraySequence", "Practice\Exercise-28-10-2022\ReverseArraySequence\ReverseArraySequence.csproj", "{4274A6F0-2D49-49B0-A0ED-E90D89B067E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseStringArray", "Practice\Exercise-28-10-2022\ReverseStringArray\ReverseStringArray.csproj", "{EC59D382-A082-4ED7-AA7D-2AF2F46ED339}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseStringArray", "Practice\Exercise-28-10-2022\ReverseStringArray\ReverseStringArray.csproj", "{EC59D382-A082-4ED7-AA7D-2AF2F46ED339}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayRotationWithSummation", "Practice\Exercise-28-10-2022\ArrayRotationWithSummation\ArrayRotationWithSummation.csproj", "{3E8F2EA6-5592-4A77-8FDA-7960027C3786}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayRotationWithSummation", "Practice\Exercise-28-10-2022\ArrayRotationWithSummation\ArrayRotationWithSummation.csproj", "{3E8F2EA6-5592-4A77-8FDA-7960027C3786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayMethodsManipulation", "Practice\Exercise-3-4-11-2022\ArrayMethodsManipulation\ArrayMethodsManipulation.csproj", "{A84772E5-4831-4B25-8C9A-1B0E07D94C69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafeArrayMethodManipulation", "Practice\Exercise-10-11-2022\SafeArrayMethodManipulation\SafeArrayMethodManipulation.csproj", "{BE52F0CE-50AD-4A14-B271-29CAFDFDDDF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayMethodsBasics", "Practice\Exercise-11-11-2022\ArrayMethodsBasics\ArrayMethodsBasics.csproj", "{D9812F82-AA90-4F1B-ADE7-499CAC95D501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedianArrayElementsExtraction", "Practice\Exercise-11-11-2022\MedianArrayElementsExtraction\MedianArrayElementsExtraction.csproj", "{DD25472C-E66E-4CF7-B5A0-7505FCFE34A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +81,22 @@ Global
 		{3E8F2EA6-5592-4A77-8FDA-7960027C3786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E8F2EA6-5592-4A77-8FDA-7960027C3786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E8F2EA6-5592-4A77-8FDA-7960027C3786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A84772E5-4831-4B25-8C9A-1B0E07D94C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84772E5-4831-4B25-8C9A-1B0E07D94C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84772E5-4831-4B25-8C9A-1B0E07D94C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84772E5-4831-4B25-8C9A-1B0E07D94C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE52F0CE-50AD-4A14-B271-29CAFDFDDDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE52F0CE-50AD-4A14-B271-29CAFDFDDDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE52F0CE-50AD-4A14-B271-29CAFDFDDDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE52F0CE-50AD-4A14-B271-29CAFDFDDDF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9812F82-AA90-4F1B-ADE7-499CAC95D501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9812F82-AA90-4F1B-ADE7-499CAC95D501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9812F82-AA90-4F1B-ADE7-499CAC95D501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9812F82-AA90-4F1B-ADE7-499CAC95D501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD25472C-E66E-4CF7-B5A0-7505FCFE34A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD25472C-E66E-4CF7-B5A0-7505FCFE34A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD25472C-E66E-4CF7-B5A0-7505FCFE34A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD25472C-E66E-4CF7-B5A0-7505FCFE34A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +112,10 @@ Global
 		{4274A6F0-2D49-49B0-A0ED-E90D89B067E1} = {5FFB1D7D-C0D9-4C04-BDA4-E1BF1844EABC}
 		{EC59D382-A082-4ED7-AA7D-2AF2F46ED339} = {5FFB1D7D-C0D9-4C04-BDA4-E1BF1844EABC}
 		{3E8F2EA6-5592-4A77-8FDA-7960027C3786} = {5FFB1D7D-C0D9-4C04-BDA4-E1BF1844EABC}
+		{A84772E5-4831-4B25-8C9A-1B0E07D94C69} = {5FFB1D7D-C0D9-4C04-BDA4-E1BF1844EABC}
+		{BE52F0CE-50AD-4A14-B271-29CAFDFDDDF2} = {5FFB1D7D-C0D9-4C04-BDA4-E1BF1844EABC}
+		{D9812F82-AA90-4F1B-ADE7-499CAC95D501} = {5FFB1D7D-C0D9-4C04-BDA4-E1BF1844EABC}
+		{DD25472C-E66E-4CF7-B5A0-7505FCFE34A6} = {5FFB1D7D-C0D9-4C04-BDA4-E1BF1844EABC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {22B8E815-7D4F-414C-A74C-3EF7E3A15C70}
