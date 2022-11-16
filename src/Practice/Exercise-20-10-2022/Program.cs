@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Exercise_20_10_2022
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
