@@ -7,7 +7,7 @@ namespace WarehouseUpdatedVersion
     {
         static void Main(string[] args)
         {
-            string[] productNames = Console.ReadLine().Split().ToArray();
+            string[] productNames = Console.ReadLine().Split().ToArray(); 
 
             long[] productQuantities = Console.ReadLine().Split().Select(long.Parse).ToArray();
 
