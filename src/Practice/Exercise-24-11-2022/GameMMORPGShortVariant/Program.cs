@@ -26,6 +26,13 @@ namespace GameMMORPGShortVariant
                 heroesMana[i] = int.Parse(heroCommands[2]);
             }
 
+            // Reversing the arrays 
+            heroesNames = heroesNames.Reverse().ToArray();
+            heroesHP = heroesHP.Reverse().ToArray();
+            heroesMana = heroesMana.Reverse().ToArray();
+
+            // Displaying information
+
             Console.WriteLine("Heroes names: ");
             foreach (string name in heroesNames)
             {
