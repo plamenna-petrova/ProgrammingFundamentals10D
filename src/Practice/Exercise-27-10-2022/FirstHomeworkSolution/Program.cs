@@ -61,7 +61,7 @@ namespace FirstHomeworkSolution
 
             Console.WriteLine(new string('-', 40));
 
-            // Task 4 - Find the multiplication of array elements, which are divisible by 7
+            // Task 4 - Find the multiplication of the array elements, which are divisible by 7
 
             int elementsDivisibleBySevenMultiplication = 1;
 
@@ -95,7 +95,7 @@ namespace FirstHomeworkSolution
 
             Console.WriteLine(new string('-', 40));
 
-            // Task 6 - Find the multiplication and the substraction of the maximum and minumum elements of the array
+            // Task 6 - Find the multiplication and the substraction of the maximum and minumum array elements
 
             int min = int.MaxValue;
             int max = int.MinValue;
