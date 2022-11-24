@@ -7,4 +7,4 @@
 
 Решенията на задачите от първата домашна работа : https://github.com/plamenna-petrova/ProgrammingFundamentals10D/blob/master/src/Practice/Exercise-27-10-2022/FirstHomeworkSolution/Program.cs
 
-Решението на задачата от втората домашна работа : https://github.com/plamenna-petrova/ProgrammingFundamentals10D/tree/master/src/Practice/Exercise-24-11-2022
+Решението на задачата от втората домашна работа : https://github.com/plamenna-petrova/ProgrammingFundamentals10D/blob/master/src/Practice/Exercise-24-11-2022/GameMMORPGShortVariant/Program.cs
