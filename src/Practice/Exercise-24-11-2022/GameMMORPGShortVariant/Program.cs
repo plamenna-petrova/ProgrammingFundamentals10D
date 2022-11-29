@@ -39,7 +39,7 @@ namespace GameMMORPGShortVariant
             heroesHP = heroesHP.Reverse().ToArray();
             heroesMP = heroesMP.Reverse().ToArray();
 
-            // Displaying information
+            // Displaying information - the long way
             Console.WriteLine("Heroes names: ");
             foreach (string name in heroesNames)
             {
@@ -58,6 +58,14 @@ namespace GameMMORPGShortVariant
                 Console.Write($"{mp} ");
             }
             Console.WriteLine();
+
+            // Displaying information - the short way
+            Console.WriteLine("Heroes names: ");
+            Console.WriteLine(string.Join(" ", heroesNames));
+            Console.WriteLine("Heroes HP: ");
+            Console.WriteLine(string.Join(" ", heroesHP));
+            Console.WriteLine("Heroes MP: ");
+            Console.WriteLine(string.Join(" ", heroesMP));
         }
     }
 }
