@@ -9,9 +9,9 @@ namespace GameMMORPGShortVariant
         {
             // enter the number of heroes 
             int numberOfHeroes = int.Parse(Console.ReadLine());
-
+             
             // declare the scope of the heroesNames array - how many
-            // names it will contain
+            // names it will contain 
             string[] heroesNames = new string[numberOfHeroes];
 
             // declare the scope of the heroesHP array - how many

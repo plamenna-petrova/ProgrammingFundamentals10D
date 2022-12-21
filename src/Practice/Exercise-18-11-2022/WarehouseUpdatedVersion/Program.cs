@@ -43,7 +43,7 @@ namespace WarehouseUpdatedVersion
                     productQuantities[productIndex] -= productQuantityCommand;
                 }
                 else
-                {
+                { 
                     Console.WriteLine($"We do not have enough {productNameCommand}");
                 }
             }
