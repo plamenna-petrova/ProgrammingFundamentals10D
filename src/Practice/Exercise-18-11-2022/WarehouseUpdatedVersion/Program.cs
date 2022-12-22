@@ -17,9 +17,9 @@ namespace WarehouseUpdatedVersion
             {
                 string[] commands = Console.ReadLine().Split().ToArray();
 
-                if (commands[0] == "done")
+                if (commands[0] == "done") 
                 {
-                    break;
+                    break; 
                 }
 
                 int productIndex = Array.IndexOf(productNames, commands[0]);
