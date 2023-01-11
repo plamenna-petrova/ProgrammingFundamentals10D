@@ -19,7 +19,7 @@ namespace WarehouseUpdatedVersion
 
                 if (commands[0] == "done") 
                 {
-                    break; 
+                    break;
                 }
 
                 int productIndex = Array.IndexOf(productNames, commands[0]);
