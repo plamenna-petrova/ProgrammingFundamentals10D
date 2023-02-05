@@ -11,7 +11,7 @@ namespace ArrayMethodsBasics
             Array.Reverse(arrayToReverse);
             Console.WriteLine(string.Join(" ", arrayToReverse));
 
-            // Sort
+            // Sort 
             int[] arrayToSort = new int[] { 2, 4, -5, 1, 10 }; 
             Array.Sort(arrayToSort);
             Console.WriteLine(string.Join(" ", arrayToSort));
