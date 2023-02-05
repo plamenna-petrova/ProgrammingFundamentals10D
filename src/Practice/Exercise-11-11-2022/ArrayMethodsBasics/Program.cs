@@ -7,7 +7,7 @@ namespace ArrayMethodsBasics
         static void Main(string[] args)
         {
             // Reverse
-            int[] arrayToReverse = new int[] { 2, 4, -5, 1, 10 };
+            int[] arrayToReverse = new int[] { 2, 4, -5, 1, 10 }; 
             Array.Reverse(arrayToReverse);
             Console.WriteLine(string.Join(" ", arrayToReverse));
 
