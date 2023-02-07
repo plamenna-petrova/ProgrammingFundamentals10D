@@ -4,7 +4,7 @@ namespace ArrayMethodsBasics
 {
     public class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             // Reverse
             int[] arrayToReverse = new int[] { 2, 4, -5, 1, 10 }; 
