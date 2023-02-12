@@ -39,9 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warehouse", "Practice\Exerc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseUpdatedVersion", "Practice\Exercise-18-11-2022\WarehouseUpdatedVersion\WarehouseUpdatedVersion.csproj", "{AC9D92E7-0E18-4512-B4D8-A9BAAFB0FBC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMMORPGLongVariant", "Practice\Exercise-24-11-2022\GameMMORPGLongVariant\GameMMORPGLongVariant.csproj", "{1E7DBF88-D064-4D7A-A33B-6F81819C1132}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameMMORPGLongVariant", "Practice\Exercise-24-11-2022\GameMMORPGLongVariant\GameMMORPGLongVariant.csproj", "{1E7DBF88-D064-4D7A-A33B-6F81819C1132}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMMORPGShortVariant", "Practice\Exercise-24-11-2022\GameMMORPGShortVariant\GameMMORPGShortVariant.csproj", "{07C40388-9649-4661-8D2D-70D25B8FF800}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameMMORPGShortVariant", "Practice\Exercise-24-11-2022\GameMMORPGShortVariant\GameMMORPGShortVariant.csproj", "{07C40388-9649-4661-8D2D-70D25B8FF800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise-07-02-2022", "Practice\Exercise-07-02-2022\Exercise-07-02-2022.csproj", "{B5AA4F54-52C9-4FCC-8D64-798613E6ADC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +123,10 @@ Global
 		{07C40388-9649-4661-8D2D-70D25B8FF800}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07C40388-9649-4661-8D2D-70D25B8FF800}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07C40388-9649-4661-8D2D-70D25B8FF800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5AA4F54-52C9-4FCC-8D64-798613E6ADC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5AA4F54-52C9-4FCC-8D64-798613E6ADC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5AA4F54-52C9-4FCC-8D64-798613E6ADC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5AA4F54-52C9-4FCC-8D64-798613E6ADC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,6 +150,7 @@ Global
 		{AC9D92E7-0E18-4512-B4D8-A9BAAFB0FBC3} = {5FFB1D7D-C0D9-4C04-BDA4-E1BF1844EABC}
 		{1E7DBF88-D064-4D7A-A33B-6F81819C1132} = {5FFB1D7D-C0D9-4C04-BDA4-E1BF1844EABC}
 		{07C40388-9649-4661-8D2D-70D25B8FF800} = {5FFB1D7D-C0D9-4C04-BDA4-E1BF1844EABC}
+		{B5AA4F54-52C9-4FCC-8D64-798613E6ADC1} = {5FFB1D7D-C0D9-4C04-BDA4-E1BF1844EABC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {22B8E815-7D4F-414C-A74C-3EF7E3A15C70}
