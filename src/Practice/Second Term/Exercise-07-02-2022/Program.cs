@@ -5,30 +5,42 @@ namespace Exercise_07_02_2022
 {
     public class Program
     {
-        static int[,,] FillThreeDimensionalArrayElements()
+        static int[,] FillMatrixElements()
         {
-            Console.WriteLine("Enter X layer size: ");
-            int xLayerSize = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter Y layer size: ");
-            int yLayerSize = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter Z layer size: ");
-            int zLayerSize = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter matrix rows: ");
+            int rows = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter matrix cols: ");
+            int cols = int.Parse(Console.ReadLine());
 
-            int[,,] threeDimensionalArray = new int[xLayerSize, yLayerSize, zLayerSize];
+            int[,] matrix = new int[rows, cols];
 
-            for (int x = 0; x < xLayerSize; x++)
+            for (int row = 0; row < rows; row++)
             {
-                for (int y = 0; y < yLayerSize; y++)
+                for (int col = 0; col < cols; col++)
                 {
-                    for (int z = 0; z < zLayerSize; z++)
-                    {
-                        Console.Write($"3D Array: [{x}, {y}, {z}] = ");
-                        threeDimensionalArray[x, y, z] = int.Parse(Console.ReadLine());
-                    }
+                    Console.Write($"matrix[{row}, {col}] = ");
+                    matrix[row, col] = int.Parse(Console.ReadLine());
                 }
             }
 
-            return threeDimensionalArray;
+            return matrix;
+        }
+
+        static int[,] FillMatrixElementsWithRowsAndCols(int rows, int cols)
+        {
+            int[,] matrix = new int[rows, cols];
+
+            for (int row = 0; row < rows; row++)
+            {
+                int[] rowArray = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+                for (int col = 0; col < cols; col++)
+                {
+                    matrix[row, col] = rowArray[col];
+                }
+            }
+
+            return matrix;
         }
 
         static void DisplayMatrixElements(int[,] matrix)
@@ -62,7 +74,7 @@ namespace Exercise_07_02_2022
             int rows = int.Parse(Console.ReadLine());
             int cols = int.Parse(Console.ReadLine());
 
-            int[,] matrix = FillMatrixElements(rows, cols);
+            int[,] matrix = FillMatrixElementsWithRowsAndCols(rows, cols);
 
             DisplayMatrixElements(matrix);
         }
