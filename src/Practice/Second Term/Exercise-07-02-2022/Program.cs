@@ -1,9 +1,10 @@
+
 using System;
 using System.Linq;
 
-namespace TestApplication
+namespace Exercise_07_02_2022
 {
-public class Program
+    public class Program
     {
         static int[,] FillMatrixElements()
         {
@@ -18,7 +19,7 @@ public class Program
             {
                 for (int col = 0; col < cols; col++)
                 {
-                    Console.Write("matrix[{0}, {1}] = ", row, col);
+                    Console.Write($"matrix[{row}, {col}] = ");
                     matrix[row, col] = int.Parse(Console.ReadLine());
                 }
             }
