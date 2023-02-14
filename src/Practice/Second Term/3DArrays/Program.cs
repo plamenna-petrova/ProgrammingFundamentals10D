@@ -4,11 +4,11 @@ namespace _3DArrays
 {
     public class Program
     {
-        static int[,,] Fill3DArrayElements(int numberOfMatrixes, int numberOfRows, int numberOfCols)
+        static int[,,] Fill3DArrayElements(int numberOfMatrices, int numberOfRows, int numberOfCols)
         {
-            int[,,] threeDimensionalArray = new int[numberOfMatrixes, numberOfRows, numberOfCols];
+            int[,,] threeDimensionalArray = new int[numberOfMatrices, numberOfRows, numberOfCols];
 
-            for (int x = 0; x < numberOfMatrixes; x++)
+            for (int x = 0; x < numberOfMatrices; x++)
             {
                 for (int y = 0; y < numberOfRows; y++)
                 {
@@ -95,10 +95,10 @@ namespace _3DArrays
 
             Display3DArrayElements(array3D);
 
-            //Console.WriteLine("Enter number of matrixes: ");
-            //int numberOfMatrixes = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter number of matrices: ");
+            //int numberOfMatrices = int.Parse(Console.ReadLine());
             //Console.WriteLine("Enter number of rows for each matrix: ");
-            //int numberOrRows = int.Parse(Console.ReadLine());
+            //int numberOfRows = int.Parse(Console.ReadLine());
             //Console.WriteLine("Enter number of cols for each matrix: ");
             //int numberOfCols = int.Parse(Console.ReadLine());
 
@@ -147,7 +147,7 @@ namespace _3DArrays
                 }
             };
 
-            // the Rubik's cube array consists of 6 matrixes, each represented by 3 rows and 3 columns
+            // the Rubik's cube array consists of 6 matrices, each represented by 3 rows and 3 columns
 
             Display3DArrayElements(rubiksCubeArray);
         }
