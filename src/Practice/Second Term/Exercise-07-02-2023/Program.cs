@@ -1,4 +1,5 @@
-﻿using System;
+
+using System;
 using System.Linq;
 
 namespace Exercise_07_02_2022
