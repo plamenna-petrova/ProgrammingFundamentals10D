@@ -58,7 +58,6 @@ namespace Exercise_14_02_2023
             //Console.WriteLine();
         }
 
-
         static void Main(string[] args)
         {
             int rows = int.Parse(Console.ReadLine());
