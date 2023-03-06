@@ -44,6 +44,9 @@ namespace LotteryTicket
             int secondaryDiagonalSum = 0;
             int sumOfElementsOverPrincipalDiagonal = 0;
             int sumOfElementsUnderPrincipalDiagonal = 0;
+            int sumOfEvenElementsOnPrincipalDiagonal = 0;
+            int sumOfEvenElementsOnOuterRows = 0;
+            int sumOfOddElementsOnOuterCols = 0;
 
             for (int row = 0; row < dimension; row++)
             {
@@ -52,44 +55,62 @@ namespace LotteryTicket
                     // Condition for elements that lie on the principal diagonal
                     if (row == col)
                     {
-                        Console.WriteLine($"Primary Diagonal Element: {lotteryMatrix[row, col]}");
                         principalDiagonalSum += lotteryMatrix[row, col];
+
+                        if (lotteryMatrix[row, col] % 2 == 0)
+                        {
+                            sumOfEvenElementsOnPrincipalDiagonal += lotteryMatrix[row, col];
+                        }
                     }
 
                     // Condition for elements that lie on the secondary diagonal
                     if ((row + col) == (dimension - 1))
                     {
-                        Console.WriteLine($"Secondary Diagonal Elements: {lotteryMatrix[row, col]}");
                         secondaryDiagonalSum += lotteryMatrix[row, col];
                     }
 
                     // Condition for elements that lie over the principal diagonal
                     if (row < col)
                     {
-                        Console.WriteLine($"Element over the principal diagonal: {lotteryMatrix[row, col]}");
                         sumOfElementsOverPrincipalDiagonal += lotteryMatrix[row, col];
                     }
 
                     // Conditiion for elements that lie under the principal diagonal
                     if (row > col)
                     {
-                        Console.WriteLine($"Element under the principal diagonal: {lotteryMatrix[row, col]}");
                         sumOfElementsUnderPrincipalDiagonal += lotteryMatrix[row, col];
+                    }
+
+                    if (row == 0 || row == dimension - 1)
+                    {
+                        if (lotteryMatrix[row, col] % 2 == 0)
+                        {
+                            sumOfEvenElementsOnOuterRows += lotteryMatrix[row, col];
+                        }
+                    }
+
+                    if (col == 0 || col == dimension - 1)
+                    {
+                        if (lotteryMatrix[row, col] % 2 != 0)
+                        {
+                            sumOfOddElementsOnOuterCols += lotteryMatrix[row, col];
+                        }
                     }
                 }
             }
-
-            Console.WriteLine($"Sum of elements that lie on the principal diagonal : {principalDiagonalSum}");
-            Console.WriteLine($"Sum of elements that lie on the secondary diagonal : {secondaryDiagonalSum}");
-            Console.WriteLine($"Sum of elements that lie over the principal diagonal : {sumOfElementsOverPrincipalDiagonal}");
-            Console.WriteLine($"Sum of elements that lie under the principal diagonal : {sumOfElementsUnderPrincipalDiagonal}");
 
             if (principalDiagonalSum == secondaryDiagonalSum &&
                 sumOfElementsOverPrincipalDiagonal % 2 == 0 &&
                 sumOfElementsUnderPrincipalDiagonal % 2 != 0
             )
             {
+                double lotteryAverageSum =
+                    (sumOfElementsUnderPrincipalDiagonal +
+                    sumOfEvenElementsOnPrincipalDiagonal +
+                    sumOfEvenElementsOnOuterRows +
+                    sumOfOddElementsOnOuterCols) / 4;
                 Console.WriteLine("YES");
+                Console.WriteLine($"The amount of money won is: {Math.Round(lotteryAverageSum, 2):F2}");
             }
             else
             {
@@ -98,4 +119,3 @@ namespace LotteryTicket
         }
     }
 }
-
