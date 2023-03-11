@@ -89,7 +89,7 @@ namespace Exercise_07_03_2023
             {
                 for (int k = 1; k < height - i; k++)
                 {
-                    Console.Write("   ");
+                    Console.Write("   "); 
                 }
 
                 long[] row = pascalTriangle[i];
