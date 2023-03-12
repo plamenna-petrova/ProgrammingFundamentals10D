@@ -8,7 +8,7 @@ namespace Exercise_07_03_2023
         {
             int[][] jaggedArray = new int[2][];
 
-            jaggedArray[0] = new int[5];
+            jaggedArray[0] = new int[5]; 
             jaggedArray[1] = new int[3];
 
             int[][] hardcodedJaggedArray = new int[][]
