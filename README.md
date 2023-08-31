@@ -5,7 +5,3 @@
 Тук може да намерите и решенията на задачите, разгледани в часовете както и условията на домашните работи, които ще
 трябва да разработвате.
 
-Разпределение на задачите от първата домашна работа за втория срок
-
-https://github.com/plamenna-petrova/ProgrammingFundamentals10D/tree/master/src/Practice/Homework/Homework%20Lists%20Second%20Term
-
